@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1481FBE6D0E71BB0016385CC /* Pods_seatTicketing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CA4F04120EA0A2A8AAC0A3 /* Pods_seatTicketing.framework */; };
+		9201672624FC76BA00821485 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9201672524FC76BA00821485 /* GoogleService-Info.plist */; };
 		926F9C3324E503D800AAFCBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F9C3224E503D800AAFCBA /* AppDelegate.swift */; };
 		926F9C3524E503D800AAFCBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F9C3424E503D800AAFCBA /* SceneDelegate.swift */; };
 		926F9C3A24E503D800AAFCBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926F9C3824E503D800AAFCBA /* Main.storyboard */; };
 		926F9C3C24E503DA00AAFCBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926F9C3B24E503DA00AAFCBA /* Assets.xcassets */; };
 		926F9C3F24E503DA00AAFCBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926F9C3D24E503DA00AAFCBA /* LaunchScreen.storyboard */; };
-		926F9C4724E5042700AAFCBA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 926F9C4624E5042700AAFCBA /* GoogleService-Info.plist */; };
 		926F9C4D24E5239300AAFCBA /* inputCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F9C4C24E5239300AAFCBA /* inputCodeViewController.swift */; };
 		926F9C5124E5415C00AAFCBA /* inputNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F9C5024E5415C00AAFCBA /* inputNameViewController.swift */; };
 		926F9C5324E5549C00AAFCBA /* WaitingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F9C5224E5549C00AAFCBA /* WaitingViewController.swift */; };
@@ -26,6 +26,7 @@
 		13B358F2E4D28905E7341DBE /* Pods-seatTicketing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seatTicketing.debug.xcconfig"; path = "Target Support Files/Pods-seatTicketing/Pods-seatTicketing.debug.xcconfig"; sourceTree = "<group>"; };
 		19CA4F04120EA0A2A8AAC0A3 /* Pods_seatTicketing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_seatTicketing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C1CD7D82B02C6F4BCC9078 /* Pods-seatTicketing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seatTicketing.release.xcconfig"; path = "Target Support Files/Pods-seatTicketing/Pods-seatTicketing.release.xcconfig"; sourceTree = "<group>"; };
+		9201672524FC76BA00821485 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		926F9C2F24E503D800AAFCBA /* 블루베리.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "블루베리.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		926F9C3224E503D800AAFCBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		926F9C3424E503D800AAFCBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		926F9C3B24E503DA00AAFCBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		926F9C3E24E503DA00AAFCBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		926F9C4024E503DA00AAFCBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		926F9C4624E5042700AAFCBA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		926F9C4C24E5239300AAFCBA /* inputCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputCodeViewController.swift; sourceTree = "<group>"; };
 		926F9C5024E5415C00AAFCBA /* inputNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputNameViewController.swift; sourceTree = "<group>"; };
 		926F9C5224E5549C00AAFCBA /* WaitingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingViewController.swift; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 				926F9C4924E515B500AAFCBA /* Views */,
 				926F9C4824E515A900AAFCBA /* Controllers */,
 				926F9C4024E503DA00AAFCBA /* Info.plist */,
-				926F9C4624E5042700AAFCBA /* GoogleService-Info.plist */,
+				9201672524FC76BA00821485 /* GoogleService-Info.plist */,
 				92CADED024ED6B1C006CB92B /* font */,
 			);
 			path = seatTicketing;
@@ -210,8 +210,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				926F9C3F24E503DA00AAFCBA /* LaunchScreen.storyboard in Resources */,
-				926F9C4724E5042700AAFCBA /* GoogleService-Info.plist in Resources */,
 				92CADED424ED7191006CB92B /* JalnanOTF.otf in Resources */,
+				9201672624FC76BA00821485 /* GoogleService-Info.plist in Resources */,
 				926F9C3C24E503DA00AAFCBA /* Assets.xcassets in Resources */,
 				926F9C3A24E503D800AAFCBA /* Main.storyboard in Resources */,
 			);

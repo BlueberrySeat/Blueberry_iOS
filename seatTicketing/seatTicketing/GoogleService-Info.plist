@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>680395068789-36k5meoppn9sastel2oj00m9bt5m3vao.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.680395068789-36k5meoppn9sastel2oj00m9bt5m3vao</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC240Su-jM_nQ1jUTNAa-zfeR9tIIrl0aw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>680395068789</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kimxwan.seatTicketing</string>
+	<key>PROJECT_ID</key>
+	<string>seatticketing</string>
+	<key>STORAGE_BUCKET</key>
+	<string>seatticketing.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:680395068789:ios:31e2436cdc0b9b8f812f3c</string>
+	<key>DATABASE_URL</key>
+	<string>https://seatticketing.firebaseio.com</string>
+</dict>
+</plist>
