@@ -37,8 +37,6 @@ class SeatViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
         ref.observe(DataEventType.childChanged, with: { _ in
             self.setSeats()
-            
-
         })
     }
     
