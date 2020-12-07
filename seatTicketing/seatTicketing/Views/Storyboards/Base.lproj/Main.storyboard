@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -21,14 +23,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="블루베리" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ncj-MX-Pvb">
-                                <rect key="frame" x="107" y="281" width="199" height="40"/>
+                                <rect key="frame" x="107" y="281" width="199" height="47"/>
                                 <fontDescription key="fontDescription" name="JalnanOTF" family="Jalnan OTF" pointSize="40"/>
                                 <color key="textColor" red="0.82352941176470584" green="0.73333333333333328" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter PIN" minimumFontSize="14" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="yhE-k4-4fd" customClass="HoshiTextField" customModule="TextFieldEffects">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter PIN" minimumFontSize="14" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="yhE-k4-4fd" customClass="HoshiTextField" customModule="블루베리">
                                 <rect key="frame" x="56" y="363" width="302" height="60"/>
-                                <color key="tintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemIndigoColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Y7g-OA-4nc"/>
                                 </constraints>
@@ -40,7 +42,7 @@
                                         <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
-                                        <color key="value" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" systemColor="systemIndigoColor"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
                                         <color key="value" red="0.90980392156862744" green="0.90980392156862744" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
@@ -55,7 +57,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="KMg-eQ-at7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="415" id="1NF-NV-IUG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ncj-MX-Pvb" secondAttribute="trailing" constant="108" id="4df-T6-Pin"/>
@@ -67,7 +70,6 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yhE-k4-4fd" secondAttribute="trailing" constant="56" id="MCJ-Uy-f4H"/>
                             <constraint firstItem="yhE-k4-4fd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="319" id="zSb-l7-WnK"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="CodeTextField" destination="yhE-k4-4fd" id="icA-Ys-sBe"/>
@@ -142,7 +144,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="pEG-kq-iKX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ORE-Hd-T4p" firstAttribute="leading" secondItem="pEG-kq-iKX" secondAttribute="leading" constant="60" id="0gN-6s-h3T"/>
                             <constraint firstItem="eTf-73-6BQ" firstAttribute="leading" secondItem="stp-6w-3Fi" secondAttribute="trailing" constant="8" id="NH3-sq-KMb"/>
@@ -162,7 +165,6 @@
                             <constraint firstItem="pEG-kq-iKX" firstAttribute="bottom" secondItem="ORE-Hd-T4p" secondAttribute="bottom" constant="39" id="vMg-oA-Z9H"/>
                             <constraint firstItem="qqR-96-0uW" firstAttribute="leading" secondItem="GSG-WJ-MD1" secondAttribute="trailing" constant="8" id="xbA-hK-Uzx"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="pEG-kq-iKX"/>
                     </view>
                     <connections>
                         <outlet property="nowUsersLable" destination="ATr-I5-HBd" id="q3P-Ra-XMn"/>
@@ -184,14 +186,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="블루베리" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PkY-3e-MU6">
-                                <rect key="frame" x="107" y="281" width="199" height="40"/>
+                                <rect key="frame" x="107" y="281" width="199" height="47"/>
                                 <fontDescription key="fontDescription" name="JalnanOTF" family="Jalnan OTF" pointSize="40"/>
                                 <color key="textColor" red="0.82352941180000006" green="0.73333333329999995" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Name" minimumFontSize="14" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="7F6-KR-7qj" customClass="HoshiTextField" customModule="TextFieldEffects">
                                 <rect key="frame" x="56" y="363" width="302" height="60"/>
-                                <color key="tintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemIndigoColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="sdD-9J-B47"/>
                                 </constraints>
@@ -203,7 +205,7 @@
                                         <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
-                                        <color key="value" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" systemColor="systemIndigoColor"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
                                         <color key="value" red="0.90980392156862744" green="0.90980392156862744" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
@@ -218,7 +220,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="z1A-ez-9z2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="PkY-3e-MU6" firstAttribute="top" secondItem="z1A-ez-9z2" secondAttribute="top" constant="237" id="BgU-5i-yGB"/>
                             <constraint firstItem="7F6-KR-7qj" firstAttribute="leading" secondItem="z1A-ez-9z2" secondAttribute="leading" constant="56" id="Eie-8H-Bgz"/>
@@ -230,7 +233,6 @@
                             <constraint firstItem="z1A-ez-9z2" firstAttribute="trailing" secondItem="3NJ-HX-iWH" secondAttribute="trailing" constant="87" id="of2-es-jP6"/>
                             <constraint firstItem="z1A-ez-9z2" firstAttribute="trailing" secondItem="7F6-KR-7qj" secondAttribute="trailing" constant="56" id="pF3-P3-PM4"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="z1A-ez-9z2"/>
                     </view>
                     <connections>
                         <outlet property="NameTextField" destination="7F6-KR-7qj" id="scm-ZM-19Z"/>
@@ -327,6 +329,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="sTG-yv-HL7"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="amT-yI-vRJ" firstAttribute="leading" secondItem="qj0-HB-uZg" secondAttribute="trailing" constant="8" id="76e-Yz-E3H"/>
@@ -341,7 +344,6 @@
                             <constraint firstItem="sTG-yv-HL7" firstAttribute="leading" secondItem="fex-1I-XQw" secondAttribute="leading" constant="31" id="xW9-Fc-5gM"/>
                             <constraint firstItem="fex-1I-XQw" firstAttribute="bottom" secondItem="sTG-yv-HL7" secondAttribute="bottom" constant="77" id="ybF-5u-XZy"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="sTG-yv-HL7"/>
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="ufV-zb-Lkt" id="2I7-RB-HgT"/>
@@ -353,10 +355,24 @@
             <point key="canvasLocation" x="1911.594202898551" y="464.73214285714283"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="7F6-KR-7qj">
+            <size key="intrinsicContentSize" width="185" height="42.5"/>
+        </designable>
+        <designable name="yhE-k4-4fd">
+            <size key="intrinsicContentSize" width="149.5" height="42.5"/>
+        </designable>
+    </designables>
     <resources>
         <image name="Btn01" width="201" height="91"/>
         <image name="Btn02_on" width="477" height="202"/>
         <image name="icon" width="288" height="295"/>
         <image name="peopleCell" width="342" height="282"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
